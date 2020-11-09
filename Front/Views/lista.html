@@ -1,0 +1,24 @@
+﻿<div ng-controller="ListaController">
+    <div class="well">
+        <label>Pesquisar por titulo:<input type="text" ng-model="pesquisa"></label>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Título</th>
+                <th scope="col">Autor</th>
+                <th scope="col">Alugado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="livro in listaLivros | filter:{Titulo:pesquisa}">
+                <td>{{livro.Titulo}}</td>
+                <td>{{livro.Autor}}</td>
+                <td>{{livro.Alugado==false? 'Não': 'Sim'}}</td>
+                <td><input type='button' value='Alugar' ng-click="Alugar(livro.Id)" /></td>
+                <td><input type='button' value='Liberar' ng-click="Liberar(livro.Id)" /></td>
+                <td><input type='button' value='Detalhes' ng-click="Detalhar(livro.Id)" /></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,6 @@
+C:\Users\Paula\source\repos\TesteSoft\Modelo\bin\Debug\Modelo.dll
+C:\Users\Paula\source\repos\TesteSoft\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Paula\source\repos\TesteSoft\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Paula\source\repos\TesteSoft\Modelo\obj\Debug\Modelo.dll
+C:\Users\Paula\source\repos\TesteSoft\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Paula\source\repos\TesteSoft\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
